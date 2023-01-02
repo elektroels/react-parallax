@@ -1,15 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Parallax.module.css';
+import './Parallax.css';
+import ild_tiger from '../../assets/ild_tiger.png';
 
 const Parallax = () => (
-  <div className={styles.Parallax}>
-    Parallax Component
+  <div className="parallax">
+    <div class="parallax-text">Parallax Component</div>
+    <img class="parallax-image" src={ild_tiger} alt="fire tiger"></img>
   </div>
 );
-
-Parallax.propTypes = {};
-
-Parallax.defaultProps = {};
 
 export default Parallax;

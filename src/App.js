@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Parallax from './components/Parallax/Parallax';
 
 function App() {
   return (
     <div className="app">
+      <Parallax></Parallax>
       <header className="app-header">
         <img src={logo} className="app-logo" alt="logo" />
         <p>

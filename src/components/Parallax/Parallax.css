@@ -1,0 +1,20 @@
+.parallax {
+    width: 100%;
+    background-color: black;
+}
+
+.parallax-text {
+    font-size: 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+}
+
+.parallax-image {
+    width: 100%;
+    z-index: 1;
+    position: sticky;
+    vertical-align: middle;
+}
+
