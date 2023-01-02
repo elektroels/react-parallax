@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `px generate-react-cli component MyComponent`
+
+Create new component
+Settings defined in generate-react-cli.json
+
 ### `npm start`
 
 Runs the app in the development mode.\
